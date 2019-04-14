@@ -1,0 +1,13 @@
+#!/bin/bash
+
+printf "Ingrese nombre del script: "
+read file
+
+cat > $file << EOF
+#!/bin/bash
+
+EOF
+
+sudo chmod a+x $file
+
+echo "Script $file creado"
