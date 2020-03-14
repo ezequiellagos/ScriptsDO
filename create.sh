@@ -12,6 +12,6 @@ cat > $file << EOF
 
 EOF
 
-sudo chmod a+x $file
+sudo chmod +x $file
 
 echo "Script $file creado"
